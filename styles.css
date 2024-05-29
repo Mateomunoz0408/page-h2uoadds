@@ -42,15 +42,15 @@ section {
 }
 
 section h2 {
-    color: #333;
+    color: #007bff;
     margin-bottom: 1rem;
     font-size: 1.8rem;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #007bff;
     padding-bottom: 0.5rem;
 }
 
 section p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 1rem;
     line-height: 1.5;
 }
@@ -84,6 +84,10 @@ section {
     border-left: none;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+section:first-of-its-kind {
+    margin-top: 2rem; /* Add space between the first section and the header */
 }
 
 section h2 {
